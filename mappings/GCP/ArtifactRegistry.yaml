@@ -20,7 +20,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known vulnerabilities in various Linux OS
+          Once this control is deployed, it can identify known vulnerabilities in various Linux OS
           packages. This information can be used to patch, isolate, or remove vulnerable software
           and machines. This control does not directly protect against exploitation and is not
           effective against zero day attacks, vulnerabilities with no available patch, and other
@@ -31,7 +31,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known OS package vulnerabilities in various
+          Once this control is deployed, it can identify known OS package vulnerabilities in various
           Linux OS packages (e.g., Debian, Ubuntu, Alpine, RHEL, CentOS, National Vulnerability
           Database)
   - id: T1203
@@ -40,7 +40,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known vulnerabilities in various Linux OS
+          Once this control is deployed, it can identify known vulnerabilities in various Linux OS
           packages. This information can be used to patch, isolate, or remove vulnerable software
           and machines. This control does not directly protect against exploitation and is not
           effective against zero day attacks, vulnerabilities with no available patch, and other
@@ -51,7 +51,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known vulnerabilities in various Linux OS
+          Once this control is deployed, it can identify known vulnerabilities in various Linux OS
           packages. This information can be used to patch, isolate, or remove vulnerable software
           and machines. This control does not directly protect against exploitation and is not
           effective against zero day attacks, vulnerabilities with no available patch, and other
@@ -62,7 +62,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known vulnerabilities in Docker containers.
+          Once this control is deployed, it can identify known vulnerabilities in Docker containers.
           This information can be used to detect malicious implanted images in the environment. This
           control does not directly protect against exploitation.
   - id: T1610
@@ -71,7 +71,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect known vulnerabilities in Docker containers.
+          Once this control is deployed, it can identify known vulnerabilities in Docker containers.
           This information can be used to detect malicious implanted images in the environment. This
           control does not directly protect against exploitation.
   - id: T1072
@@ -80,7 +80,7 @@ techniques:
       - category: Protect
         value: Minimal
         comments: >-
-          Once this control is deployed, it can detect variations to store system packages and
+          Once this control is deployed, it can identify variations to store system packages and
           container images.
   - id: T1211
     name: Exploitation for Defense Evasion
@@ -88,7 +88,7 @@ techniques:
       - category: Protect
         value: Partial
         comments: >-
-          Once this control is deployed, it can detect variations to store system packages and
+          Once this control is deployed, it can identify variations to store system packages and
           images stored in the repository, which adversaries may target to establish persistence
           while evading cyber defenses.
   - id: T1212
@@ -97,7 +97,7 @@ techniques:
       - category: Detect
         value: Significant
         comments: >-
-          Once this control is deployed, it can detect known OS package vulnerabilities in various
+          Once this control is deployed, it can identifyt known OS package vulnerabilities in various
           Linux OS packages that could be used to escalate privileges and execute adversary-controlled
           code (e.g., Debian, Ubuntu, Alpine, RHEL, CentOS, National Vulnerability Database)
 comments: 'This control may provide information about software vulnerabilities in the environment. '
